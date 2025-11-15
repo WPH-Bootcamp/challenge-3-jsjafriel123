@@ -21,7 +21,7 @@ let in_number2 = "";
 let in_operator = "";
 
 while (nb_valid == false) {
-  in_number1 = prompt("Enter number 1 (or 'no' to EXIT): ", "");
+  in_number1 = prompt("Enter the 1st number (or 'no' to EXIT): ", "");
   if (in_number1.toLowerCase() == "no") {
     break; // Exit this loop
   }
@@ -39,7 +39,7 @@ if (in_number1.toLowerCase() == "no") {
 // Number 2
 nb_valid = false;
 while (nb_valid == false) {
-  in_number2 = prompt("Enter number 2 (or 'no' to EXIT): ", "");
+  in_number2 = prompt("Enter the 2nd number (or 'no' to EXIT): ", "");
   if (in_number2.toLowerCase() == "no") {
     break; // Exit this loop
   }
@@ -163,7 +163,7 @@ if (isNaN(ot_result)) {
   }
 } else {
   if (ot_result >= 0) {
-    console.log("The Result is a positive number or 0");
+    console.log("The Result is a positive number (or 0)");
   } else {
     console.log("The Result is a negative number");
   }
